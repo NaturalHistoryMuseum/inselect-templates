@@ -1,0 +1,148 @@
+InselectTemplateVersion: 1
+Name: Percy Macrosiphum slides
+Thumbnail width pixels: 8192
+Cropped file suffix: .jpg
+Object label: '{catalogNumber}_{Location-value}_{Taxonomy-value}'
+Fields:
+    - Name: catalogNumber
+      Label: Catalog number
+      URI: http://rs.tdwg.org/dwc/terms/catalogNumber
+      Mandatory: true
+      Regex parser: '^[0-9]{9}$'
+    - Name: Location
+      Mandatory: true
+      Choices with data:
+            Drawer 178: 112602
+            Drawer 241: 112666
+            Drawer 242: 112667
+            Drawer 243: 112668
+            Drawer 244: 112669
+            Drawer 245: 112670
+            Drawer 246: 112671
+            Drawer 247: 112672
+            Drawer 248: 112673
+            Drawer 249: 112674
+            Drawer 250: 112675
+            Drawer 251: 112676
+            Drawer 252: 112677
+            Drawer 253: 112678
+            Drawer 254: 112679
+            Drawer 255: 112680
+            Drawer 256: 112681
+            Drawer 257: 112682
+            Drawer 261: 112686
+            Drawer 262: 112687
+            Drawer 263: 112688
+            Drawer 588: 113013
+            Drawer 589: 113014
+    - Name: Taxonomy
+      Mandatory: true
+      Choices with data:
+            '[Macrosiphum]': 1094793
+            aetheocornum - Smith & Knowlton: 1094794
+            agrimoniellum - Cockerell: 1094795
+            albertinae - Hille Ris Lambers: 1094796
+            albifrons - Essig: 1094797
+            alpinum - Meier: 1094798
+            amygdaloides - Theobald: 1094799
+            asperulophagum - Holman: 1094886
+            atragenae - Holman: 1094800
+            audeni - MacDougall: 1094801
+            badium - Jensen: 401914
+            bisensioriatum - MacDougall: 1094802
+            californicum - Clarke: 1094803
+            carpinicolens - Patch: 1094891
+            centranthi - Theobald: 1094804
+            cerinthiacum - Borner: 1094805
+            cholodkovskyi - Mordvilko: 1094806
+            claytonae - Jensen: 1094807
+            clematifoliae - Shinji: 1094808
+            clematophagum - Zhang: 1094809
+            cockerelli - Hottes: 1094810
+            corallorhizae - Cockerell: 1094811
+            cornifoliae - Shinji: 1094812
+            coryli - Davis: 1094892
+            corylicola - Shinji: 1094893
+            creelii - Davis: 1094813
+            cyatheae - Holman: 1094814
+            daphnidis - Borner: 1094815
+            dicentrae - Jensen & Chan: 54323
+            diervillae - Patch: 1094816
+            doronicicola - Leclant: 1094817
+            echinocysti - Bartholomew: 1094818
+            edrossi - Essig: 1094819
+            epilobiellum - Theobald & Walton: 1094820
+            euphorbiae - Thomas: 1094821
+            euphorbiellum - Theobald: 1094822
+            fagopyri - Ghosh & Raychaudhuri: 1094823
+            flavum - Tao: 1094824
+            fulvae - Oestlund: 1094882
+            funestum - Macchiati: 1094825
+            galii - Mamontova: 1094887
+            galiophagum - Wimshurst: 1094888
+            gaurea - Williams: 1094826
+            gei - Koch: 1094827
+            geranii - Oestlund: 1094828
+            hamiltoni - Robinson: 1094829
+            hartigi - Hille Ris Lambers: 1094830
+            hellebori - Theobald & Walton: 1094831
+            holmani - Leclant: 1094832
+            holodisci - Jensen: 1094833
+            impatientis - Williams: 1094834
+            inexpectatum - Leclant: 1094835
+            jeanae - Robinson: 1094836
+            kickapoo - Hottes & Frison: 1094883
+            kiowanepus - Hottes: 1094837
+            knautiae - Holman: 1094838
+            laseri - Holman: 1094839
+            lilii - Monell: 1094840
+            lisae - Heie: 1094841
+            martini - Cockerell: 1094842
+            meixneri - Borner: 1094843
+            melanpyri - Mordvilko: 1094844
+            mentzeliae - Wilson: 1094845
+            mertensiae - Gillette & Palmer: 1094846
+            mordvilkoi - Miyazaki: 1094847
+            nasonovi - Mordvilko: 1094848
+            olmsteadi - Robinson: 1094849
+            opportunisticum - Jensen: 402104
+            oredonensis - Remaudiere: 1094850
+            oregonense - Jensen: 1094851
+            pachysiphon - Hille Ris Lambers: 1094852
+            pallens - Hottes & Frison: 1094853
+            pechumani - MacGillivray: 1094854
+            perillae - Zhang: 1094896
+            potentillae - Oestlund: 1094855
+            potentillicaulis - Miller: 1094856
+            prenanthidis - Borner: 1094857
+            pseudocoryli - Patch: 1094894
+            pseudogeranii - Chakrabarti & Raychau: 1094858
+            pyrifoliae - MacDougall: 1094859
+            raysmithi - Hille Ris Lambers: 1094860
+            rosae - Linnaeus: 1094861
+            rubiarctici - Heikinheimo: 1094862
+            rudbeckiarum - Cockerell: 1094863
+            sanguinarium - Hottes & Frison: 1094889
+            selenium - Theobald: 1094864
+            silenium_penfroense - Stroyan: 1094865
+            silvaticum - Meier: 1094866
+            sorbi - Matsumura: 1094897
+            stanleyi - Wilson: 1094867
+            stellariae - Theobald: 1094868
+            subarcticum - Robinson: 1094869
+            symphytae - Barjadze & Chakvetadze: 35530
+            symphyti - Barjadze & Chakvetadze: 35272
+            tenuicauda - Bartholomew: 1094870
+            tiliae - Monell: 1094871
+            tinctum - Walker: 1094872
+            trolli - Borner: 1094873
+            tuberculaceps - Essig: 1094874
+            valerianae - Clarke: 1094875
+            vancouveriae - Jensen: 401997
+            vandenboschi - Hille Ris Lambers: 1094884
+            venaefuscae - Davis: 1094876
+            violae - Jensen: 401996
+            weberi - Borner: 1094877
+            willamettense - Jensen: 1094878
+            wilsoni - Jensen: 1094879
+            zionensis - Knowlton: 1094880

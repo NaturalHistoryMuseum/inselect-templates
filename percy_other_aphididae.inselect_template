@@ -1,0 +1,167 @@
+InselectTemplateVersion: 1
+Name: Percy other Aphididae slides
+Thumbnail width pixels: 8192
+Cropped file suffix: .jpg
+Object label: '{catalogNumber}_{Location-value}_{Taxonomy-value}'
+Fields:
+    - Name: catalogNumber
+      Label: Catalog number
+      URI: http://rs.tdwg.org/dwc/terms/catalogNumber
+      Mandatory: true
+      Regex parser: '^[0-9]{9}$'
+    - Name: Location
+      Mandatory: true
+      Choices with data:
+            Drawer 342: 112767
+            Drawer 343: 112768
+            Drawer 344: 112769
+            Drawer 350: 112775
+            Drawer 351: 112776
+            Drawer 355: 112780
+            Drawer 356: 112781
+            Drawer 417: 112842
+            Drawer 418: 112843
+            Drawer 419: 112844
+            Drawer 420: 112845
+            Drawer 442: 112867
+            Drawer 472: 112897
+            Drawer 473: 112898
+            Drawer 474: 112899
+            Drawer 475: 112900
+            Drawer 476: 112901
+            Drawer 485: 112910
+            Drawer 487: 112912
+            Drawer 488: 112913
+            Drawer 489: 112914
+            Drawer 490: 112915
+            Drawer 491: 112916
+            Drawer 492: 112917
+            Drawer 493: 112918
+            Drawer 494: 112919
+            Drawer 514: 112939
+            Drawer 515: 112940
+            Drawer 516: 112941
+            Drawer 560: 112985
+            Drawer 591: 113016
+            Drawer 594: 113019
+    - Name: Taxonomy
+      Mandatory: true
+      Choices with data:
+            Drepanosiphum: 1094046
+            Drepanosiphum acerinum: 1094047
+            Drepanosiphum aceris: 1094048
+            Drepanosiphum braggii: 1094049
+            Drepanosiphum caucasicum: 1094050
+            Drepanosiphum dixoni: 1094051
+            Drepanosiphum oregonensis: 1094052
+            Drepanosiphum platanoides: 1094053
+            Drepanosiphum platanoides iranicum: 1094054
+            Eucallipterus: 1094231
+            Eucallipterus tiliae: 1094232
+            Forda: 1094300
+            Forda formicaria: 1094301
+            Forda hirsuta: 1094302
+            Forda kaussarii: 1094303
+            Forda marginata: 1094304
+            Forda orientalis: 1094305
+            Forda pawlowae: 1094306
+            Forda riccobonii: 1094307
+            Forda rotunda: 1094308
+            Forda sichangensis: 1094309
+            Pemphigus: 1095548
+            Pemphigus betae: 1095549
+            Pemphigus borealis: 1095550
+            Pemphigus brevicornis: 1095551
+            Pemphigus bursarius: 1095552
+            Pemphigus canadensis: 1095553
+            Pemphigus dorocola: 1095554
+            Pemphigus filaginis: 1095555
+            Pemphigus fuscicornis: 1095556
+            Pemphigus gairi: 1095557
+            Pemphigus groenlandicus: 1095558
+            Pemphigus groenlandicus crassicornis: 1095559
+            Pemphigus immunis: 1095560
+            Pemphigus iskanderkuli: 1095561
+            Pemphigus knowltoni: 1095562
+            Pemphigus latisensorius: 1095563
+            Pemphigus laurifolia: 1095564
+            Pemphigus longicornus: 1095565
+            Pemphigus matsumurai: 1095566
+            Pemphigus microsetosus: 1095567
+            Pemphigus mongolicus: 1095568
+            Pemphigus monophagus: 1095569
+            Pemphigus mordwilkoi: 1095570
+            Pemphigus napaeus: 1095571
+            Pemphigus nortonii: 1095572
+            Pemphigus passeki: 1095573
+            Pemphigus phenax: 1095574
+            Pemphigus plicatus: 1095575
+            Pemphigus populi: 1095593
+            Pemphigus populicaulis: 1095576
+            Pemphigus populiglobuli: 1095577
+            Pemphigus populiramulorum: 1095578
+            Pemphigus populitransversus: 1095579
+            Pemphigus populivenae: 1095580
+            Pemphigus protospirae: 1095581
+            Pemphigus rubiradicis: 1095582
+            Pemphigus salicicola: 1095583
+            Pemphigus saliciradicis: 1095584
+            Pemphigus siphunculatus: 1095585
+            Pemphigus solanophila: 1095586
+            Pemphigus spirothecae: 1095587
+            Pemphigus tartareus: 1095588
+            Pemphigus trehernei: 1095589
+            Pemphigus vesicarius: 1095594
+            Pemphigus yangcola: 1095590
+            Periphyllus: 1095606
+            Periphyllus acericola: 1095607
+            Periphyllus aceriphaga: 1095608
+            Periphyllus aceris: 1095609
+            Periphyllus aesculi: 1095610
+            Periphyllus allogenes: 1095611
+            Periphyllus americanus: 1095612
+            Periphyllus bengalensis: 1095613
+            Periphyllus brevispinosus: 1095614
+            Periphyllus bulgaricus: 1095615
+            Periphyllus caesium: 1095616
+            Periphyllus californiensis: 1095617
+            Periphyllus changlai: 1095618
+            Periphyllus coracinus: 1095619
+            Periphyllus formosanus: 1095620
+            Periphyllus garhwalensis: 1095621
+            Periphyllus ginnalae: 1095622
+            Periphyllus hirticornis: 1095623
+            Periphyllus koelreuteriae: 1095624
+            Periphyllus kuwanaii: 1095625
+            Periphyllus lyropictus: 1095626
+            Periphyllus mamontovae: 1095627
+            Periphyllus minutus: 1095628
+            Periphyllus negundinis: 1095629
+            Periphyllus nevskyii: 1095630
+            Periphyllus obscurus: 1095631
+            Periphyllus pakistanicus: 1095632
+            Periphyllus pallidus: 1095633
+            Periphyllus rhenanus: 1095634
+            Periphyllus singeri: 1095635
+            Periphyllus testudinaceus: 1095636
+            Periphyllus vandenboschi: 1095637
+            Periphyllus venetianus: 1095638
+            Periphyllus villosii: 1095639
+            Periphyllus viridis: 1095640
+            Rhopalosiphum: 1095913
+            Rhopalosiphum arundinariae: 1095914
+            Rhopalosiphum cerasifoliae: 1095915
+            Rhopalosiphum enigmae: 1095916
+            Rhopalosiphum insertum: 1095917
+            Rhopalosiphum luzulella: 1095918
+            Rhopalosiphum maidis: 1095919
+            Rhopalosiphum musae: 1095920
+            Rhopalosiphum niger: 1095921
+            Rhopalosiphum nymphaeae: 1095922
+            Rhopalosiphum padi: 1095923
+            Rhopalosiphum rufiabdomilalis: 1095924
+            Rhopalosiphum rufulum: 1095925
+            Rhopalosiphum sanguinarium: 1095926
+            Tuberolachnus: 1096531
+            Tuberolachnus salignus: 1096532
+            Tuberolachnus sclerata: 1096534

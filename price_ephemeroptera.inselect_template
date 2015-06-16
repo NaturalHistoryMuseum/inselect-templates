@@ -1,0 +1,305 @@
+InselectTemplateVersion: 1
+Name: Price Ephemeroptera slides
+Thumbnail width pixels: 8192
+Cropped file suffix: .jpg
+Object label: '{catalogNumber}_{Location-value}_{Taxonomy-value}'
+Fields:
+    - Name: catalogNumber
+      Label: Catalog number
+      URI: http://rs.tdwg.org/dwc/terms/catalogNumber
+      Mandatory: true
+      Regex parser: '^[0-9]{9}$'
+    - Name: Location
+      Mandatory: true
+      Choices with data:
+            Drawer 25: 824914
+            Drawer 26: 118995
+            Drawer 27: 825257
+            Drawer 28: 824928
+            Drawer 29: 825193
+            Drawer 30: 824917
+            Drawer 31: 825063
+            Drawer 32: 825099
+            Drawer 33: 824873
+            Drawer 34: 824831
+            Drawer 35: 825018
+            Drawer 36: 825155
+            Drawer 37: 824825
+            Drawer 38: 825082
+            Drawer 39: 825250
+            Drawer 40: 824847
+            Drawer 41: 824959
+            Drawer 42: 824987
+            Drawer 43: 118996
+            Drawer 44: 824974
+            Drawer 45: 824984
+            Drawer 46: 824972
+            Drawer 47: 824858
+            Drawer 48: 824806
+            Drawer 49: 824794
+            Drawer 50: 825046
+            Drawer 51: 825055
+            Drawer 52: 824844
+            Drawer 53: 824937
+            Drawer 54: 824931
+            Drawer 55: 824849
+            Drawer 56: 824939
+            Drawer 57: 118997
+            Drawer 58: 824933
+            Drawer 59: 824912
+            Drawer 60: 825067
+            Drawer 61: 825070
+            Drawer 62: 825147
+            Drawer 63: 825201
+            Drawer 64: 825206
+            Drawer 65: 824820
+            Drawer 66: 825126
+            Drawer 67: 118999
+            Drawer 68: 119000
+            Drawer 69: 825178
+            Drawer 70: 825072
+            Drawer 71: 825012
+            Drawer 72: 825014
+            Drawer 73: 824773
+            Drawer 74: 824771
+            Drawer 75: 824770
+            Drawer 76: 825210
+            Drawer 77: 119001
+            Drawer 78: 824786
+            Drawer 79: 824923
+            Drawer 80: 825112
+            Drawer 81: 119002
+            Drawer 82: 119003
+            Drawer 83: 825120
+            Drawer 84: 825160
+            Drawer 85: 119004
+            Drawer 86: 825229
+            Drawer 87: 119005
+            Drawer 88: 119006
+            Drawer 89: 119007
+            Drawer 90: 119008
+            Drawer 91: 119009
+            Drawer 92: 119010
+            Drawer 93: 119011
+            Drawer 94: 119012
+            Drawer 95: 119013
+            Drawer 96: 119014
+            Drawer 97: 119015
+            Drawer 98: 119016
+            Drawer 99: 119017
+    - Name: Taxonomy
+      Mandatory: true
+      Choices with data:
+            '[Ephemeroptera]': 1759335
+            aapta, Harker, [Mirawara]: 1485700
+            aestivalis, Eaton, [Siphlonurus], T+: 1485836
+            aethiopicus, Kimmins, [Afronurus]: 1485150
+            affinis, Eaton, [Heptagenia]: 520784
+            africanum, Gillies, [Prosopistoma]: 1485787
+            africanus, Kimmins, [Brachycercus], T+: 1485320
+            albiterminata, Tillyard, [Atalophlebia]: 1485216
+            alpestris, Eaton, [Rhithrogena]: 1485814
+            alpicola, Eaton, [Epeorus]: 1485501
+            alternatus, Say, [Siphlonurus]: 1485837
+            amenia, Harker, [Kirrara], T+: 1485655
+            anceps, Eaton, [Campylocia]: 1485040
+            armatus, Eaton, [Siphlonurus]: 1485839
+            aurantiacus, Burmeister, [Ecdyonurus]: 1485474
+            australasica, Pictet, [Atalophlebia]: 1485217
+            australis, Walker, [Atalophlebia], T+: 1485218
+            austriacus, Kimmins, [Ecdyonurus], T+: 1485475
+            autumnale, Phillips, [Deleatidium]: 1485446
+            bellum, Navas, [Cloeon]: 1485396
+            bellus, Eaton, [Thraulus]: 1485893
+            berneri, Demoulin, [Afrobaetodes]: 1485139
+            beskidensis, Sowa, [Baetis]: 1485254
+            bicolor, Tillyard, [Ichthybotus]: 1485629
+            bicolor, Walker, [Isonychia]: 1485641
+            bihoumi, Gillies & Elouard, [Mutelocloeon]: 1764809
+            bioculatus, Linnaeus, [Baetis]: 1485266
+            borealis, Eaton, [Metretopus], T+: 520147
+            borealis, Phillips, [Zephlebia], T+: 1485914
+            brevipes, Kimmins, [Caenis], T+: 1485330
+            brunnea, Tillyard, [Atalophlebia]: 520678
+            burgeoni, Navas, [Adenophlebia]: 1485119
+            camerunense, Ulmer, [Pseudocloeon]: 1485723
+            candida, Eaton, [Elassoneuria]: 1485493
+            cerinum, Phillips, [Deleatidium]: 1485448
+            cibaria, Eaton, [Caenis]: 1485331
+            cincta, Demoulin, [Caenis]: 1485332
+            cincta, Retzius, [Paraleptophlebia]: 1485733
+            continua, Walker, [Hexagenia]: 1485609
+            continua, Walker, [Hexagenia], T: 1485614
+            corbeti, Malzacher, [Caenis]: 1485333
+            costalis, Burmeister, [Atalophlebia]: 1485217
+            cromwelli, Phillips, [Atalophlebiodes]: 1485242
+            cruentata, Hudson, [Acanthophlebia]: 1485125
+            curtus, Kimmins, [Euthraulus], T+: 1485580
+            cylindroculum, Kimmins, [Procloeon]: 1485776
+            danica, Muller, [Ephemera]: 1485512
+            decipiens, Harker, [Deleatidium]: 520870
+            delamarei, Verrier, [Adenophlebiodes]: 1485136
+            delicata, Tillyard, [Thraulophlebia]: 1485891
+            delicatula, Tillyard, [Atalonella]: 520674
+            delicatula, Tillyard, [Atalonella], T: 1485227
+            demoulini, Kimmins, [Adenophlebiodes]: 519568
+            dentata, Eaton, [Zephlebia]: 1485915
+            dentatus, Kimmins, [Cloeon]: 520235
+            dentatus, Kimmins, [Cloeon], T: 1485406
+            dipterum, Linnaeus, [Cloeon]: 1485407
+            dispar, Curtis, [Ecdyonurus]: 1485478
+            dissitus, Eaton, [Ameletus]: 1485193
+            distans, Eaton, [Oniscigaster]: 1485720
+            dobbsi, Eaton, [Oligoneuriopsis]: 1485717
+            eatoni, Kimmins, [Baetis]: 520230
+            eatoni, Kimmins, [Baetis], T: 1485274
+            eatoni, Kimmins, [Ecdyonurus]: 1485094
+            edwardsi, Kimmins, [Caenis], T+: 1485337
+            elouardi, Gillies, [Rhithrocloeon]: 520358
+            erepens, Gillies, [Afroptilum]: 520171
+            falcatum, Crass, [Afroptilum]: 520172
+            fasciata, Navas, [Brachycercus]: 520157
+            fasciatus, Kimmins, [Thraulus]: 1485894
+            femorale, Demoulin, [Dicercomyzon]: 1485461
+            flavitinctus, Tillyard, [Nesameletus]: 1485706
+            fluminum, Pictet, [Ecdyonurus]: 1485478
+            forcipula, Pictet, [Ecdyonurus]: 1485481
+            fumosum, Phillips, [Deleatidium]: 1485450
+            fusca, Curtis, [Habrophlebia]: 1485077
+            fuscula, Tillyard, [Atalonella]: 520677
+            gallica, Eaton, [Heptagenia]: 520786
+            giganteus, Tillyard, [Coloburiscoides]: 1485435
+            gilliesi, Allen & Edmunds, [Ephemerella]: 520816
+            gratianopolitana, Sowa, [Rhithrogena]: 1485820
+            gregalis, Eaton, [Paraleptophlebia]: 1485736
+            griseum, Gillies, [Afroptilum]: 520173
+            haarupi, Esben-Petersen, [Rhithrogena]: 1485819
+            harrisella, Curtis, [Brachycercus]: 1485323
+            helveticus, Eaton, [Ecdyonurus]: 1485482
+            helvipes, Stephens, [Paraleptophlebia]: 1485747
+            horaria, Linnaeus, [Caenis]: 1485344
+            hudsoni, McLachlan, [Ichthybotus]: 1485630
+            hudsoni, Tillyard, [Atalophlebia], T+: 1485228
+            humeralis, Walker, [Coloburiscus]: 1485438
+            ida, Tillyard, [Atalophlebia]: 520682
+            ida, Tillyard, [Atalophlebia], T: 1485229
+            ignita, Poda, [Ephemerella]: 520818
+            inopinatus, Eaton, [Ameletus]: 1485195
+            intermedius, Eaton, [Oniscigaster]: 1485721
+            invaria, Walker, [Ephemerella]: 1485552
+            jinjana, Kimmins, [Caenodes]: 520224
+            jinjana, Kimmins, [Caenodes], T: 1485023
+            johannae, Malzacher, [Caenis], T+: 1485346
+            kala, Harker, [Atalophlebia], T+: 1485231
+            knowlesi, Gillies & Knowles, [Caenis], T+: 1485347
+            kungu, Eaton, [Caenis]: 1485349
+            lactella, Eaton, [Caenis]: 1485344
+            lacusalbinae, Tillyard, [Ameletoides]: 1485189
+            lacuscoerulei, Tillyard, [Tasmanophlebia]: 1485877
+            lacustris, Eaton, [Siphlonurus]: 1485843
+            lacustris, Tillyard, [Tasmanophlebia]: 1485878
+            lanceolatus, Kimmins, [Tricorythus], T+: 1485909
+            lateralis, Curtis, [Heptagenia]: 520875
+            lauta, Eaton, [Habrophlebia]: 1485078
+            lillii, Eaton, [Deleatidium]: 1485452
+            lineata, Eaton, [Ephemera]: 1485522
+            linnaeanus, Eaton, [Siphlonurus]: 1485837
+            longicauda, Olivier, [Palingenia]: 1485728
+            longicauda, Stephens, [Heptagenia]: 1485597
+            loweae, Kimmins, [Afroptilum]: 520182
+            ludens, Needham, [Ameletus]: 1485196
+            lutea, Linnaeus, [Potamanthus]: 1485766
+            luteolum, Muller, [Centroptilum]: 1485066
+            macani, Kimmins, [Baetis], T+: 1485282
+            macrura, Stephens, [Caenis]: 1485353
+            maculatus, Kimmins, [Machadorythus]: 1485691
+            maculosa, Crass, [Pseudocloeon]: 1485805
+            maurus, Kimmins, [Baetis]: 1485283
+            mendesi, Malzacher, [Brasilocaenis], T+: 1485324
+            mesopotamica, Morton, [Mortogenesia]: 1485702
+            miunga, Harker, [Atalophlebia]: 1485234
+            moesta, Bengtsson, [Caenis]: 1485352
+            montanum, Kimmins, [Afroptilum]: 1485185
+            montanum, Kimmins, [Afroptilum], T: 1485178
+            munionga, Tillyard, [Coloburiscoides]: 1485436
+            myzobranchia, Phillips, [Deleatidium], T+: 1485454
+            namorona, Malzacher, [Caenis], T+: 1485356
+            natalensis, Barnard, [Afromera]: 1485147
+            natata, Walker, [Ephemera]: 1485532
+            negi, Corbet, [Afronurus]: 1485155
+            niger, Linnaeus, [Baetis]: 1759380
+            nigrescens, Tillyard, [Tasmanophlebia]: 1485879
+            nigropunctata, Klapalek, [Caenis]: 1485358
+            nishinoae, Malzacher, [Caenis], T+: 1485359
+            njalensis, Kimmins, [Notonurus]: 520778
+            nodularis, Eaton, [Atalophlebia]: 520687
+            notabile, Kimmins, [Afroptilum]: 520188
+            notabile, Kimmins, [Afroptilum], T: 1485180
+            notata, Eaton, [Ephemerella]: 1485554
+            nubila, Kimmins, [Heptagenia], T+: 1485600
+            pallida, Malzacher, [Caenis]: 1485364
+            pallida, Malzacher, [Caenis], T+: 1485364
+            pennulatum, Eaton, [Centroptilum]: 520305
+            perscitus, Eaton, [Ameletopsis]: 1485191
+            phyllis, McDunnough, [Siphlonurus]: 1485846
+            pierda, Harker, [Atalophlebia]: 1485237
+            procera, Harker, [Kirrara], T+: 1485656
+            pseudorufulum, Kimmins, [Procloeon]: 1485774
+            pseudorufulum, Kimmins, [Procloeon], T: 1485782
+            pulcher, Ulmer, [Afronurus]: 1485159
+            pulchrum, Eaton, [Centroptilum]: 520309
+            pumilus, Burmeister, [Baetis]: 1764427
+            rhenana, Imhoff, [Oligoneuria]: 520916
+            rhithrogenoiodes, Tillyard, [Triloponympha]: 1485913
+            rhodani, Pictet, [Baetis]: 1485297
+            rivulorum, Eaton, [Caenis]: 1485369
+            robusta, Eaton, [Caenis], T+: 1485370
+            rufula, Muller, [Cloeon]: 1485407
+            rufula, Muller, [Cloeon], T: 1485421
+            rugosa, Malzacher, [Caenis], T+: 1485371
+            rutila, Malzacher, [Caenis], T+: 1485372
+            samoense, Tillyard, [Cloeon]: 1485423
+            scambus, Eaton, [Baetis]: 1485299
+            scitulum, Kimmins, [Cloeon], T+: 1485424
+            scotti, Eaton, [Maheathraulus]: 1485693
+            scotti, Ulmer, [Caenis]: 1485373
+            semicastaneus, Gillies, [Thraulus]: 1485898
+            semicolorata, Curtis, [Rhithrogena]: 1485825
+            sepia, Phillips, [Atalophlebiodes]: 520697
+            sibirica, McLachlan, [Anagenesia]: 520670
+            sibirica, McLachlan, [Anagenesia], T: 1485205
+            simile, Eaton, [Cloeon]: 1485427
+            southi, Blair, [Arthroplea]: 1485222
+            spinosa, Malzacher, [Caenis], T+: 1485018
+            stenopteryx, Eaton, [Centroptilum]: 1485053
+            submarginata, Stephens, [Paraleptophlebia]: 1485747
+            sudafricanum, Lestage, [Afroptilum]: 1485185
+            sulphurea, Muller, [Heptagenia]: 1485605
+            superba, Tillyard, [Atalophlebia]: 1485239
+            taprobanes, Walker, [Kimminsula], T+: 1485653
+            tarsale, Gillies, [Afroptilum]: 520192
+            tasmaniae, Tillyard, [Cloeon]: 1485430
+            tauroides, Malzacher, [Madecocercus], T+: 1485692
+            tenax, Eaton, [Baetis]: 1485311
+            tenellus, Albarda, [Centroptilum]: 520331
+            tillyardi, Lestage, [Caenis]: 520222
+            tinctus, Kimmins, [Tricorythus], T+: 7802213
+            tjonnelandi, Kimmins, [Caenis], T+: 1485020
+            torrentis, Gillies, [Thraulus]: 1485899
+            torrentis, Kimmins, [Ecdyonurus]: 1485488
+            tristis, Harker, [Jappa]: 520928
+            tuhla, Harker, [Atalophlebia], T+: 1485240
+            ugandanus, Kimmins, [Afronurus]: 1485162
+            ulmeri, Kimmins, [Caenodes]: 520225
+            uncinata, Ulmer, [Atalomicria]: 1485226
+            undosa, Tiensuu, [Caenis]: 520223
+            varium, Crass, [Afroptilum]: 520163
+            venosus, Fabricius, [Ecdyonurus]: 1485489
+            vernale, Phillips, [Deleatidium]: 1485457
+            vernus, Curtis, [Baetis]: 1485311
+            versicolor, Eaton, [Atalophlebia]: 520696
+            vespertina, Linnaeus, [Leptophlebia]: 1485688
+            volitans, Eaton, [Heptagenia]: 520888
+            vulgata, Linnaeus, [Ephemera]: 1485536
+            zettana, Kimmins, [Ephemera]: 7802216
+            zomba, Lugo-Ortiz & McCafferty, [Acanthiops], T+: 1485124

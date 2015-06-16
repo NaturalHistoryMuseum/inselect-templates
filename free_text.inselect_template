@@ -1,0 +1,17 @@
+InselectTemplateVersion: 1
+Name: Free text location and taxonomy
+Thumbnail width pixels: 8192
+Cropped file suffix: .jpg
+Object label: '{catalogNumber}_{Location-value}_{Taxonomy-value}'
+Fields:
+    - Name: catalogNumber
+      Label: Catalog number
+      URI: http://rs.tdwg.org/dwc/terms/catalogNumber
+      Mandatory: true
+      Parser-regex: '^[0-9]{9}$'
+    - Name: Location,
+      Mandatory: true
+      Parser-regex: '^[0-9]+$'
+    - Name: Taxonomy,
+      Mandatory: true
+      Parser-regex: '^[0-9]+$'

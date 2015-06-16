@@ -1,0 +1,201 @@
+InselectTemplateVersion: 1
+Name: Percy Cinara slides
+Thumbnail width pixels: 8192
+Cropped file suffix: .jpg
+Object label: '{catalogNumber}_{Location-value}_{Taxonomy-value}'
+Fields:
+    - Name: catalogNumber
+      Label: Catalog number
+      URI: http://rs.tdwg.org/dwc/terms/catalogNumber
+      Mandatory: true
+      Regex parser: '^[0-9]{9}$'
+    - Name: Location
+      Mandatory: True
+      Choices with data:
+            Drawer 537: 112962
+            Drawer 538: 112963
+            Drawer 539: 112964
+            Drawer 540: 112965
+            Drawer 541: 112966
+            Drawer 542: 112967
+            Drawer 543: 112968
+            Drawer 544: 112969
+            Drawer 545: 112970
+            Drawer 546: 112971
+            Drawer 547: 112972
+            Drawer 548: 112973
+            Drawer 549: 112974
+    - Name: Taxonomy
+      Mandatory: true
+      Choices with data:
+            '[Cinara]': 1093726
+            acutirostris - Hille Ris Lambers: 1093727
+            alaskana - Hottes: 1093728
+            anelia - Favret & Voightlin: 1093731
+            antennalis - Remaudiere & Binazzi: 1093729
+            anzai - Hottes & Essig: 1093730
+            apacheca - Hottes & Butler: 1093732
+            apini - Gillette & Palmer: 1093733
+            arizonica - Wilson: 1093734
+            atlantica - Wilson: 1093735
+            atra - Gillette & Palmer: 1093736
+            atroalbipes - David: 1093887
+            atrotibialis - David & Rakasingh: 1093832
+            balachowskyi - Remaudiere: 1093737
+            banksiana - Pepper & Tissot: 1093738
+            borealis - Curtis: 1093851
+            braggi - Gillette: 1093852
+            brauni - Borner: 1093898
+            brevispinosa - Gillette & Palmer: 1093739
+            burrilli - Wilson: 1093866
+            caliente - Hottes: 1093740
+            californica - Hottes & Essig: 1093741
+            canatra - Hottes & Bradley: 1093742
+            carnica - Binazzi: 1093743
+            cedri - Mimeur: 1093744
+            cembrae - Seitner: 1093745
+            chibi - Inouye: 1093746
+            chinookiana - Hottes: 1093877
+            coloradensis - Gillette: 1093747
+            comata - Doncaster: 1093888
+            confinis - Koch: 1093878
+            contortae - Hottes: 1093748
+            costata - Zetterstedt: 1093889
+            cronartii - Tissot & Pepper: 1093749
+            cuneomaculata - del Guercio: 1093848
+            cupressi - Buckton: 1093867
+            curtihirsuta - Hottes & Essig: 1093750
+            curvipes - Patch: 1093895
+            dubia - Hottes & Essig: 1093751
+            eastopi - Pintera: 1093752
+            edulis - Wilson: 1093753
+            engelmanniensis - Gillette & Palmer: 1093754
+            escherichi - Borner: 1093755
+            etsuhoe - Inouye: 1093756
+            ferrisi - Swain: 1093757
+            flexilis - Gillette & Palmer: 1093758
+            formosana - Takahashi: 1093833
+            fornacula - Hottes: 1093853
+            fresai - Blanchard: 1093868
+            gentneri - Hottes: 1093759
+            glabra - Gillette & Palmer: 1093760
+            glehna - Essig: 1093854
+            gracilis - Wilson: 1093855
+            guadarramae - Mimeur: 1093761
+            harmonia - Hottes: 1093762
+            hattorii - Kono & Inouye: 1093879
+            hirsuta - Hottes & Essig: 1093763
+            horii - Inouye: 1093764
+            hottesi - Gillette & Palmer: 1093765
+            hottesis - Ghosh: 1093885
+            hyperophila - Koch: 1093766
+            indica - Verma: 1093880
+            juniperensis - Gillette & Palmer: 1093767
+            juniperi - De Geer: 1093869
+            juniperivora - Wilson: 1093768
+            kasarowi - Tashev: 1093769
+            kochiana - Borner: 1093892
+            kochiana_kochi - Inouye: 1093893
+            kuchea - Hottes: 1093770
+            lachnirostris - Hille Ris Lambers: 1093834
+            laportei - Remaudiere: 1093830
+            laricicola - Matsumura: 1093849
+            laricifex - Fitch: 1093771
+            laricifoliae - Wilson: 1093772
+            laricina - del Guercio: 1093856
+            laricionis - Binazzi: 1093835
+            laricis - Hartig: 1093773
+            longipennis - Matsumura: 1093881
+            louisianensis - Boudreaux: 1093870
+            lyallii - Bradley: 1093774
+            maculipes - Hille Ris Lambers: 1093836
+            maghrebica - Mimeur: 1093775
+            maghrebica_garganica - Binazzi: 1093776
+            manitobensis - Bradley: 1093857
+            maritimae - Dufour: 1093837
+            matsumurana - Hille Ris Lambers: 1093900
+            medispinosa - Gillette & Palmer: 1093777
+            melaina - Boudreaux: 1093778
+            moketa - Hottes: 1093779
+            mongolica - Szelegiewicz & Holman: 1093780
+            montanicola - Borner: 1093781
+            mordvilkoi - Pasek: 1093871
+            murrayana - Gillette & Palmer: 1093838
+            neubergi - Arnhart: 1093839
+            newelli - Tissot: 1093782
+            nigra - Wilson: 1093783
+            nigripes - Bradley: 1093858
+            nigrofasciata - del Guercio: 1093784
+            nimbata - Hottes: 1093890
+            nitidula - Hottes: 1093785
+            obscura - Bradley: 1093859
+            occidentalis - Davidson: 1093786
+            oregonensis - Wilson: 1093787
+            orientalis - Takahashi: 1093788
+            osborni - Knowlton: 1093789
+            oxycedri - Binazzi: 1093872
+            ozawai - Inouye: 1093790
+            palaestinensis - Hille Ris Lambers: 1093791
+            palaestinensis_apulica - Binazzi: 1093792
+            parvicornis - Hottes: 1093793
+            pectinatae - Nordlinger: 1093828
+            pergandei - Wilson: 1093840
+            petersoni - Bradley: 1093873
+            peucis - Tashev: 1093794
+            piceae - Panzer: 1093896
+            piceicola - Cholodkovsky: 1093860
+            pilicornis - Hartig: 1093861
+            pilosa - Zetterstedt: 1093841
+            pinata - Hottes: 1093795
+            pinea - Mordvilko: 1093842
+            pini - Linnaeus: 1093796
+            pinicola - Kaltenbach: 1093862
+            pinidensiflorae - Essig & Kuwana: 1093797
+            piniformosanus - Takahashi: 1093843
+            pinihabitans - Mordvilko: 1093798
+            piniphila - Ratzeburg: 1093844
+            piniradicis - Bradley: 1093799
+            pinivora - Wilson: 1093800
+            pinona - Hottes: 1093801
+            polymorpha - Remaudiere & Binazzi: 1093802
+            ponderosae - Williams: 1093586
+            pruinosa - Hartig: 1093863
+            pruinosa_ezoana - Inouye: 1093864
+            pseudoschwarzii - Palmer: 1093587
+            pseudotaxifoliae - Palmer: 1093588
+            pseudotsugae - Wilson: 1093589
+            puerca - Hottes: 1093590
+            pulverulens - Gillette & Palmer: 1093591
+            radicivora - Voegtlin: 1093592
+            rubicundus - Wilson: 1093803
+            russellae - Pepper & Tissot: 1093804
+            saccharinipini - Hottes: 1093805
+            schimitscheki - Borner: 1093845
+            schwarzii - Wilson: 1093806
+            setulosa - Hottes & Essig: 1093829
+            shinjii - Inouye: 1093807
+            sitchensis - Hottes: 1093808
+            smolandiae - Danielsson & Carter: 1093874
+            solitaria - Gillette & Palmer: 1093809
+            sonata - Hottes: 1093882
+            sorini - Inouye: 1093810
+            spiculosa - Bradley: 1093811
+            splendens - Gillette & Palmer: 1093812
+            strobi - Fitch: 1093813
+            subterranea - Bradley: 1093814
+            taedae - Tissot: 1093815
+            tanneri - Knowlton: 1093816
+            tenuipes - Chakrabarti & Gosh: 1093883
+            terminalis - Gillette & Palmer: 1093817
+            thatcheri - Knowlton & Smith: 1093818
+            todocolus - Inouye: 1093884
+            tsugae - Bradley: 1093819
+            tujafilinus - del Guercio: 1093875
+            vandykei - Wilson: 1093820
+            wahhaka - Hottes: 1093821
+            wahluca - Hottes: 1093822
+            wahtolca - Hottes: 1093823
+            wahtolca_curtiwahtolca - Hottes: 1093824
+            watanabei - Inouye: 1093825
+            watsoni - Tissot: 1093846
+            westi - Tissot & Pepper: 1093826

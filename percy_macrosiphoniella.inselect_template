@@ -1,0 +1,104 @@
+InselectTemplateVersion: 1
+Name: Percy Macrosiphoniella slides
+Thumbnail width pixels: 8192
+Cropped file suffix: .jpg
+Object label: '{catalogNumber}_{Location-value}_{Taxonomy-value}'
+Fields:
+    - Name: catalogNumber
+      Label: Catalog number
+      URI: http://rs.tdwg.org/dwc/terms/catalogNumber
+      Mandatory: true
+      Regex parser: '^[0-9]{9}$'
+    - Name: Location
+      Mandatory: true
+      Choices with data:
+                Drawer 233: 112658
+                Drawer 234: 112659
+                Drawer 235: 112660
+                Drawer 236: 112661
+                Drawer 237: 112662
+                Drawer 238: 112663
+                Drawer 239: 112664
+                Drawer 240: 112665
+    - Name: Taxonomy
+      Mandatory: true
+      Choices with data:
+            '[Macrosiphoniella]': 1094709
+            abrotani - Walker: 1094710
+            absinthii - Linnaeus: 1094711
+            aetnensis - Barbagallo: 1094712
+            alatavica - Nevsky: 1094713
+            antennata - Holman & Szelegiewicz: 1094714
+            artemisiae - Boyer: 1094715
+            artemisiae_meridionalis - Barbagallo: 1094716
+            asteris - Walker: 1094755
+            atra - Ferrari: 1094717
+            chaetosiphon - Takahashi & Moritzu: 1094788
+            chamaemelifoliae - Remaudiere: 1094719
+            cinerescens - Hille: 1094768
+            crepidis - Holman & Szelegiewicz: 1094756
+            davazhamci - Holman & Szelegiewicz: 1094757
+            dimidiata - Borner: 1094720
+            formosartemisiae - Takahashi: 1094721
+            frigidicola - Gillette & Palmer: 1094722
+            frigidivora - Holman & Szelegiewicz: 1094723
+            fulvicola - Shinji: 1094789
+            glabra - Gillette & Palmer: 1094724
+            grandicauda - Takahashi & Moritzu: 1094769
+            helichrysi - Remaudiere: 1094725
+            hidaensis - Takahashi & Moritzu: 1094770
+            hikosanensis - Moritsu: 1094790
+            hillerislambersi - Ossiannilsson: 1094782
+            himalayana - Saha: 1094726
+            hokkaidensis - Miyazaki: 1094727
+            iranica - Nieto-Nafria: 459779
+            italica - Hille: 1094748
+            jankei - Borner: 1094783
+            kaufmanni - Borner: 1094728
+            kikungshana - Takahashi: 1094730
+            kuwayamai - Takahashi: 1094791
+            latysiphon - Holman & Szelegiewicz: 1094718
+            leucanthemi - Ferrari: 1094771
+            linariae - Koch: 1094758
+            ludovicianae - Oestlund: 1094772
+            madeirensis - Aguiar: 1094729
+            medvedevi - Bozhko: 1094784
+            miestingeri - Borner: 1094773
+            millefolii - Fabricius: 1094731
+            mutellinae - Borner: 1094732
+            nigropilosa - Nevsky: 1094733
+            nitida - Borner: 1094734
+            nitida_soongarica - Szelegiewicz: 1094735
+            oblonga - Mordvilko: 1094774
+            papillata - Holman: 1094764
+            paradoxa - Bozhko: 1094785
+            paucisetosa - Robinson: 1094736
+            pennsylvanica - Pepper: 1094775
+            persequens - Walker: 1094776
+            pseudoartemisiae - Shinji: 1094737
+            ptarmicae - Hille: 1094738
+            pulvera - Walker: 1094739
+            riedeli - Szelegiewicz: 1094765
+            sanborni - Gillette: 1094780
+            sausureae - Holman & Szelegiewicz: 1094786
+            sejuncta - Walker: 1094777
+            silvestri - Roberti: 1094740
+            sojaki - Holman & Szelegiewicz: 1094741
+            soosi - Szelegiewicz: 1094759
+            spinipes - Basu: 1094762
+            staegeri - Hille: 1094742
+            subaequalis - Borner: 1094743
+            subterranea - Koch: 1094744
+            szalaymarzsoi - Szelegiewicz: 1094745
+            tanacetaria - Kaltenbach: 1094746
+            tanacetaria_bonariensis - Blanchard: 1094747
+            tapuskae - Hottes & Frison: 1094778
+            teriolana - Hille: 1094749
+            tuberculata - Nevsky: 1094766
+            umarovi - Narzikulov: 1094750
+            usquertensis - Hille: 1094751
+            xeranthemi - Bozhko: 1094752
+            yangi - Takahashi: 1094760
+            yomenae - Shinji: 1094761
+            yomogicola - Matsumura: 1094792
+            yomogifoliae - Shinji: 1094753

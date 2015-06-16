@@ -1,0 +1,271 @@
+InselectTemplateVersion: 1
+Name: Price Plecoptera slides
+Thumbnail width pixels: 8192
+Cropped file suffix: .jpg
+Object label: '{catalogNumber}_{Location-value}_{Taxonomy-value}'
+Fields:
+    - Name: catalogNumber
+      Label: Catalog number
+      URI: http://rs.tdwg.org/dwc/terms/catalogNumber
+      Mandatory: true
+      Regex parser: '^[0-9]{9}$'
+    - Name: Location
+      Mandatory: true
+      Choices with data:
+            Drawer 1: 804508
+            Drawer 2: 804607
+            Drawer 3: 804613
+            Drawer 4: 804529
+            Drawer 5: 804603
+            Drawer 6: 118909
+            Drawer 7: 804579
+            Drawer 8: 804573
+            Drawer 9: 804582
+            Drawer 10: 804569
+            Drawer 11: 804575
+            Drawer 12: 804561
+            Drawer 13: 804567
+            Drawer 14: 804563
+            Drawer 15: 804586
+            Drawer 16: 804585
+            Drawer 17: 804589
+            Drawer 18: 804558
+            Drawer 19: 804630
+            Drawer 20: 804504
+            Drawer 21: 804458
+            Drawer 22: 804482
+            Drawer 23: 804628
+            Drawer 24: 804433
+            Drawer 25: 804636
+            Drawer 26: 118911
+            Drawer 27: 118910
+            Drawer 28: 804536
+            Drawer 29: 804538
+            Drawer 30: 804551
+            Drawer 31: 804597
+            Drawer 32: 804437
+            Drawer 33: 92458
+            Drawer 34: 804451
+            Drawer 35: 804517
+            Drawer 36: 804513
+            Drawer 37: 118913
+            Drawer 38: 804675
+            Drawer 39: 118912
+            Drawer 40: 804639
+            Drawer 41: 804441
+            Drawer 42: 804510
+            Drawer 43: 804662
+            Drawer 44: 804684
+            Drawer 45: 804689
+            Drawer 46: 804501
+            Drawer 47: 804554
+            Drawer 48: 804470
+            Drawer 49: 804469
+            Drawer 50: 804663
+            Drawer 51: 804609
+            Drawer 52: 804655
+            Drawer 53: 804657
+            Drawer 54: 804601
+    - Name: Taxonomy
+      Mandatory: true
+      Choices with data:
+            '[Antarctoperla]': 1257604
+            '[Austroperla]': 1257645
+            '[Chloroperla]': 1257707
+            '[Dinotoperla]': 1257492
+            '[Isopteryx]': 522431
+            '[Leptoperla]': 1257855
+            '[Leuctra]': 1257862
+            '[Nemoura]': 1257940
+            '[Paragripopteryx]': 1258069
+            '[Perlidae]': 521620
+            '[Plecoptera]': 371327
+            '[Tasmanoperla]': 1258214
+            '[Trinotoperla]': 1258227
+            acicularis, Despax, [Isoperla]: 1257793
+            acicularis, Despax, [Isoperla], T: 535022
+            affinis, Morton, [Capnia]: 1257667
+            albida, Kempny, [Leuctra], T: 1257864
+            alticola, Despax, [Leuctra], T: 1257866
+            ambigua, Despax, [Isoperla]: 1257795
+            ambigua, Despax, [Isoperla], T: 535023
+            anglica, Kimmins, [Rhabdiopteryx], T: 1258168
+            apicalis, Kimmins, [Perlodinella], T: 1258117
+            apicalis, Newman, [Chloroperla]: 522429
+            armata, Kempny, [Leuctra]: 1257867
+            aroucana, Kimmins, [Anacroneuria]: 1257586
+            atra, Morton, [Capnia]: 1257669
+            aurita, Navás, [Leuctra]: 1257868
+            australica, Enderlein, [Leptoperla]: 1257856
+            australica, Tillyard, [Spaniocerca]: 1258184
+            australis, Tillyard, [Stenoperla]: 524328
+            australis, Tillyard, [Trinotoperla]: 524354
+            avicularis, Morton, [Nemoura]: 1257944
+            barnardi, Tillyard, [Aphanicercella]: 1257613
+            barnardi, Tillyard, [Aphanicercella], T: 535021
+            bicaudata, Linnaeus, [Diura]: 1257738
+            bifasciata, Kimmins, [Udamocercia], T: 1258241
+            bifrons, Newman, [Zwicknia]: 1257670
+            bituberculata, Kimmins, [Nemoura], T: 1257945
+            borealis, Morton, [Amphinemura]: 1257568
+            brachyptera, Despax, [Capnioneura], T: 1257692
+            braueri, Kempny, [Leuctra]: 1257870
+            brevipennis, Kimmins, [Dinotoperla], T: 1257494
+            brevistyla, Ris, [Protonemura]: 1258133
+            budtzi, Esben-Petersen, [Leuctra]: 1257871
+            bullata, Kimmins, [Spaniocerca], T: 1258185
+            californica, Newport, [Pteronarcys]: 1258162
+            cambrica, Stephens, [Nemoura]: 1257948
+            capensis, Tillyard, [Aphanicerca]: 1257609
+            carinthiaca, Kempny, [Leuctra]: 1257875
+            cephalotes, Curtis, [Dinocras]: 1257491
+            cincta, Morton, [Leuctra]: 1257868
+            cincta, Morton, [Leuctra], T: 1257874
+            cinerea, Olivier, [Amphinemura]: 267300
+            cingulata, Kempny, [Leuctra]: 1257875
+            clymene, Newman, [Neoperla]: 1258002
+            conica, Klapalek, [Capnia]: 1257681
+            corsicana, Morton, [Protonemura]: 1258134
+            corsicana, Morton, [Protonemura], T: 535026
+            cylindrica, De Geer, [Perla]: 1257885
+            cyrene, Newman, [Austroperla]: 1257646
+            denticulata, Tillyard, [Aphanicercopsis]: 1257619
+            despaxi, Mosely, [Leuctra]: 1257879
+            digitata, Kempny, [Leuctra]: 1257880
+            dorsalis, Kimmins, [Kyphopteryx], T: 1257853
+            dubitans, Morton, [Nemoura]: 1257957
+            erratica, Claassen, [Nemoura]: 1257958
+            evansi, Kimmins, [Dinotoperla], T: 1257496
+            exigua, Kimmins, [Leptoperla], T: 1257859
+            falcata, Kimmins, [Protonemura], T: 1258135
+            filigera, Kimmins, [Amphinemura], T: 1257570
+            flavomaculata, Mosely, [Leuctra], T: 1257883
+            flexuosa, Aubert, [Nemoura]: 1257959
+            fontana, Kimmins, [Dinotoperla], T: 1257498
+            fontium, Ris, [Dictyogenus]: 1257483
+            fraterna, Morton, [Leuctra]: 1257884
+            fulvescens, Hare, [Nesoperla]: 1258031
+            fumosa, Stephens, [Nemoura]: 267300
+            furcillatus, Tillyard, [Zelandobius]: 1258248
+            fusca, Kimmins, [Dinotoperla], T: 1257499
+            fusciventris, Stephens, [Leuctra]: 1257885
+            geniculata, Stephens, [Leuctra]: 1257887
+            grammatica subarmata, Despax, [Chloroperla]: 1257805
+            grammatica subarmata, Despax, [Chloroperla], T: 1257824
+            grammatica, Poda, [Isoperla]: 1257805
+            griseipennis, Pictet, [Perla]: 1257815
+            hamulata, Morton, [Isopteryx], T: 1257710
+            handlirschi, Kempny, [Leuctra]: 1257890
+            hingstoni, Kimmins, [Capnia], T: 1257677
+            hippopus, Kempny, [Leuctra]: 1257891
+            hrabei, Rauser, [Protonemura]: 1258136
+            imhoffi, Pictet, [Besdolus]: 1257485
+            inconspicua, Pictet, [Nemoura]: 1257987
+            inermis, Kempny, [Leuctra]: 1257893
+            insularis, Morton, [Isoperla]: 1257807
+            intricata, Ris, [Protonemura]: 1258138
+            intricatus, Pictet, [Perlodes]: 1258076
+            kempnyi, Mosely, [Leuctra], T: 1257894
+            klapaleki, Kempny, [Leuctra]: 1257885
+            lamellosa, Despax, [Leuctra]: 1257898
+            lateralis, Pictet, [Protonemura]: 1258139
+            latipennis, Tillyard, [Notonemoura]: 1258042
+            lunata, Kimmins, [Mesyatsia], T: 535025
+            luteipes, Kimmins, [Amphinemura], T: 1257571
+            manevali, Kimmins, [Isopteryx], T: 1257712
+            marginata, Panzer, [Perla]: 1258094
+            marginata, Pictet, [Nemoura]: 1257966
+            maxima carlukiana, Klapalek, [Perla]: 1258085
+            maxima, Scopoli, [Perla]: 1258095
+            mclachlani, Kimmins, [Protonemura], T: 1258142
+            meyeri, Pictet, [Protonemura]: 1258143
+            microcephalus, Pictet, [Perlodes]: 1258110
+            minima, Barnston, [Allocapnia], T: 535015
+            minor, Kimmins, [Trinotoperla]: 1258232
+            minuta, Klapalek, [Anacroneuria], T: 1257591
+            minuta, Klapalek, [Tyrrhenoleuctra]: 1258239
+            mirabilis, Martynov, [Protonemura]: 524320
+            mishmica, Kimmins, [Protonemura], T: 1258145
+            monspessulana, Despax, [Nemoura], T: 1257968
+            montana, Despax, [Pachyleuctra]: 524298
+            montana, Kimmins, [Capnia], T: 1257678
+            montana, Kimmins, [Protonemura], T: 1258146
+            mortoni, Kempny, [Leuctra]: 1257901
+            mortoni, Klapalek, [Perlodes]: 1258111
+            moselyi, Despax, [Isoperla], T: 535018
+            moselyi, Despax, [Nemoura], T: 1257969
+            moselyi, Morton, [Leuctra]: 1257902
+            nebulosa, Linnaeus, [Taeniopteryx]: 1258213
+            neglecta, Albarda, [Rhabdiopteryx]: 1258170
+            nigra, Olivier, [Leuctra]: 1257904
+            nigra, Pictet, [Capnia]: 1257681
+            nigricoxa, Kimmins, [Dinotoperla], T: 1257500
+            nigrifrons, Kimmins, [Cardioperla], T: 535016
+            nimborella, Mosely, [Protonemura], T: 535019
+            nimborum, Ris, [Protonemura]: 1258148
+            nitida, Kimmins, [Neoperla], T: 1258017
+            nitida, Pictet, [Protonemura]: 1258149
+            nivata, Kimmins, [Trinotoperla], T: 1258233
+            nubila, Kimmins, [Amphinemura], T: 1257572
+            obscura, Zetteistedt, [Isoperla]: 1257815
+            obtusa, Ris, [Nemoura]: 1257970
+            occidentalis, Despax, [Protonemura]: 1258154
+            opposita, Walker, [Dinotoperla], T: 535017
+            oxylepis, Despax, [Isoperla]: 1257816
+            oxylepis, Despax, [Isoperla], T: 535024
+            pacifica, Banks, [Hesperoperla]: 1257510
+            pedestris, Kimmins, [Capnia], T: 1257682
+            perfecta, Walker, [Paranemoura], T: 535014
+            pilosa, Despax, [Chloroperla]: 1257828
+            pilosa, Despax, [Chloroperla], T: 1257818
+            praecox, Morton, [Protonemura]: 1258151
+            prasina, Newman, [Stenoperla]: 1258194
+            prima, Kempny, [Leuctra]: 1257906
+            pseudocingulata, Mendl, [Leuctra], T: 1257907
+            pseudocylindrica, Despax, [Leuctra]: 1257908
+            pulchella, Tillyard, [Desmonemoura]: 1257731
+            putata, Newman, [Brachyptera]: 1257653
+            pyrenaica, Mosely, [Protonemura], T: 1258152
+            rectus, Kempny, [Diura]: 1257738
+            rectus, Kempny, [Isogenus]: 1257738
+            renata, Kimmins, [Amphinemura], T: 1257574
+            reticulata, Kimmins, [Riekoperla], T: 535020
+            ribauti, Despax, [Pachyleuctra]: 1258059
+            risi, Despax, [Nemoura]: 1257958
+            risi, Jacobson & Bianchi, [Protonemura]: 1258154
+            risi, Morton, [Brachyptera]: 1257654
+            rivulorum, Pictet, [Isoperla]: 1257819
+            rosinae, Kempny, [Leuctra]: 1257909
+            rubens, Klapalek, [Neoperla]: 524292
+            rugosa, Kimmins, [Riekoperla], T: 535027
+            scutigera, Kimmins, [Protonemura], T: 1258155
+            serricauda, Kimmins, [Dinotoperla], T: 1257734
+            seticornis, Klapalek, [Brachyptera]: 1257655
+            sigma, Despax, [Nemoura]: 1257963
+            signifera, Kempny, [Leuctra]: 1257912
+            sinensis, Wu & Claassen, [Peltoperla]: 1258081
+            sinuata, Ris, [Nemoura]: 1257979
+            standfussi, Ris, [Amphinemura]: 1257575
+            strandi, Kempny, [Chloroperla]: 1257805
+            tasmanica, Kimmins, [Leptoperla], T: 1257860
+            tasmanica, Tillyard, [Spaniocerca]: 524326
+            teriolensis, Kempny, [Leuctra]: 1257914
+            testacea, Hagen, [Phanoperla]: 1258125
+            tibetana, Kimmins, [Capnia], T: 1257683
+            tillyardi, Kimmins, [Spaniocerca]: 524327
+            tillyardi, Kimmins, [Spaniocerca], T: 1258188
+            torrentium, Pictet, [Chloroperla]: 1257717
+            tragula, Kimmins, [Amphinemura], T: 1257576
+            triangularis, Ris, [Amphinemura]: 1257577
+            trifasciata, Pictet, [Brachyptera]: 1257656
+            tripunctata, Scopoli, [Chloroperla]: 1257718
+            tuberculata, Despax, [Protonemura]: 1258157
+            uncata, Kimmins, [Filchneria], T: 1257768
+            uniformis, Kimmins, [Dinotoperla], T: 1257735
+            varia, Kimmins, [Leptoperla], T: 1257861
+            variegata, Olivier, [Nemoura]: 1257950
+            venosa, Stephens, [Chloroperla]: 1257805
+            vidua, Klapalek, [Capnia]: 1257686
+            viridinervis, Pictet, [Isoperla]: 1257828
+            vitripennis, Burmeister, [Marthamea]: 1257921
+            zelandica, Tillyard, [Spaniocerca]: 1258189

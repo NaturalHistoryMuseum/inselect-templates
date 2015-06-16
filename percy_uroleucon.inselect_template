@@ -1,0 +1,199 @@
+InselectTemplateVersion: 1
+Name: Percy Uroleucon slides
+Thumbnail width pixels: 8192
+Cropped file suffix: .jpg
+Object label: '{catalogNumber}_{Location-value}_{Taxonomy-value}'
+Fields:
+    - Name: catalogNumber
+      Label: Catalog number
+      URI: http://rs.tdwg.org/dwc/terms/catalogNumber
+      Mandatory: true
+      Regex parser: '^[0-9]{9}$'
+    - Name: Location
+      Mandatory: true
+      Choices with data:
+            Drawer 386: 112811
+            Drawer 387: 112812
+            Drawer 388: 112813
+            Drawer 389: 112814
+            Drawer 390: 112815
+            Drawer 391: 112816
+            Drawer 392: 112817
+            Drawer 393: 112818
+            Drawer 394: 112819
+            Drawer 395: 112820
+            Drawer 396: 112821
+            Drawer 397: 112822
+            Drawer 398: 112823
+            Drawer 399: 112824
+            Drawer 401: 112826
+            Drawer 402: 112827
+            Drawer 403: 112828
+            Drawer 404: 112829
+            Drawer 589: 113014
+            Drawer 595: 113020
+    - Name: Taxonomy
+      Mandatory: true
+      Choices with data:
+            '[Uroleucon]': 1096539
+            aaronii - Knowlton: 1096540
+            achilleae - Koch: 1096541
+            acutirostre - Banziger: 1096542
+            adenocaulonae - Essig: 1096543
+            adenophorae - Matsumura: 1096655
+            adenophoricola - Holman: 1096656
+            aeneum - Hille Ris Lambers: 1096657
+            alaskense - Robinson: 1096544
+            amamianus - Takahashi: 1096658
+            ambrosiae - Thomas: 1096545
+            ambrosiae_lizerianum - Blanchard: 1096546
+            anomalae - Hottes & Frison: 1096627
+            arnesense - Robinson: 1096547
+            astronomus - Hille Ris Lambers: 1096548
+            atripes - Gillette & Palmer: 1096549
+            bereticum - Blanchard: 1096628
+            bielawskii - Szelegiewicz: 1096550
+            bonitum - Hottes: 1096659
+            boreale - Robinson: 1096551
+            brachychaetum - Olive: 1096653
+            brevirostris - Holman: 1096552
+            breviscriptum - Palmer: 1096629
+            budhium - Banerjee: 1096553
+            cadens - Moran: 1096630
+            caligatum - Richards: 1096631
+            cameronensis - Takahashi: 1096660
+            campanulae - Kaltenbach: 1096661
+            campanulae_longius - Borner: 1096662
+            carlinae - Borner: 1096663
+            carthami - Hille Ris Lambers: 1096664
+            caspicum - Rezwani & Lampel: 1096554
+            cephalonopli - Takahashi: 1096665
+            chani - Robinson: 1096555
+            chilensis - Essig: 1096632
+            chondrillae - Nevsky: 1096556
+            chrysanthemi - Oestlund: 1096557
+            chrysopsidicola - Olive: 1096558
+            cicerbitae - Holman: 1096559
+            cichorii - Koch: 1096560
+            cichorii_grossum - Hille Ris Lambers: 1096561
+            cichorii_leontodontis - Hille Ris Lambers: 1096562
+            ciefi - Olive: 1096563
+            cirsicola - Holman: 1096564
+            cirsii - Linnaeus: 1096565
+            compositae - Theobald: 1096666
+            compositae_evansi - Eastop: 1096667
+            crepusisiphon - Olive: 1096633
+            deltense - Robinson: 1096566
+            doronici - Borner: 1096668
+            ensifoliae - Holman: 1096669
+            eoessigi - Knowlton: 1096670
+            erigeronensis - Thomas: 1096634
+            escalantii - Knowlton: 1096635
+            eupatoricolens - Patch: 1096567
+            eupatorifoliae - Tissot: 1096671
+            fagopyri - Chowdhuri: 1096568
+            formosanum - Takahashi: 1096569
+            fuchuensis - Shinji: 1096570
+            fuscocaudatus - Chakrabarti & Raychau: 1096571
+            garnicai - Delfino: 1096572
+            gigantea - Matsumura: 1096672
+            gigantiphagum - Moran: 1096573
+            gochnatiae - Delfino: 1096574
+            gravicorne - Patch: 1096636
+            helenae - Hille Ris Lambers: 1096673
+            helianthicola - Olive: 1096674
+            hieraciciola - Hille Ris Lambers: 1096575
+            hieracioides - Bozhko: 1096675
+            himachali - Ghosh: 1096676
+            hypochoeridis - Hille Ris Lambers: 1096576
+            idahoensis - Miller: 1096637
+            illini - Hottes & Frison: 1096677
+            impatiensicolens - Patch: 1096577
+            inulae - Ferrari: 1096625
+            inulicola - Hille Ris Lambers: 1096578
+            inulicola_hirticola - Ossiannilsson: 1096579
+            ivae - Robinson: 1096580
+            jaceae - Linnaeus: 1096678
+            jaceae_henrichi - Borner: 1096679
+            jaceae_microsiphon - Hille Ris Lambers: 1096680
+            jaceae_reticulatum - Hille Ris Lambers: 1096681
+            jaceicola - Hille Ris Lambers: 1096581
+            jaceicola_pasqualei - Hille Ris Lambers: 1096582
+            kashmiricum - Verma: 1096583
+            katonkae - Hottes: 1096638
+            lactucicola - Strand: 1096682
+            lanceolatum - Patch: 1096584
+            leonardi - Olive: 1096585
+            longirostre - Gillette & Palmer: 1096639
+            longisetosum - Chakrabarti & Verma: 1096586
+            luteola - Williams: 1096640
+            macgillivrayae - Olive: 1096641
+            macolai - Blanchard: 1096587
+            madia - Swain: 1096642
+            martorelli - Barbagallo: 1096683
+            maximilianicola - Robinson: 1096588
+            minor - Borner: 1096684
+            minutum - van der Groot: 1096685
+            mongolicum - Holman: 1096589
+            montanivorum - Mosbacher: 1096686
+            monticolum - Takahashi: 1096590
+            muermosum - Essig: 1096591
+            muralis - Buckton: 1096592
+            neocompanulae - Takahashi: 1096687
+            nigrocampanulae - Theobald: 1096688
+            nigrotibius - Olive: 1096593
+            nigrotuberculatus - Olive: 1096594
+            nuble - Essig: 1096643
+            obscuricaudatus - Olive: 1096595
+            obscurum - Koch: 1096596
+            ochropus - Hille Ris Lambers: 1096597
+            olivei - Moran: 1096598
+            orientale - van der Groot: 1096689
+            pachysiphon - Borner: 1096690
+            paucosensoriatum - Hille Ris Lambers: 1096599
+            penderum - Robinson: 1096644
+            pepperi - Olive: 1096600
+            phyteumae - Bozhko: 1096691
+            picridis - Fabricius: 1096601
+            pilosellae - Borner: 1096602
+            pseudambrosiae - Olive: 1096603
+            pseudobscurus - Hille Ris Lambers: 1096604
+            pseudotanaceti - Verma: 1096605
+            pulicariae - Hille Ris Lambers: 1096606
+            pyrethri - Holman: 1096607
+            rapunculoides - Borner: 1096692
+            reynoldensis - Olive: 1096608
+            richardsi - Robinson: 1096645
+            riparius - Stroyan: 1096693
+            rudbeckiae - Fitch: 1096609
+            ruralis - Hottes & Frison: 1096694
+            russellae - Hille Ris Lambers: 1096610
+            saussureae - Takahashi: 1096611
+            scorzonerae - Danielsson: 1096695
+            seneciocola - Paik: 1096696
+            siculum - Barbagallo & Stroyan: 1096697
+            sijpkensi - Hille Ris Lambers: 1096612
+            simile - Hille Ris Lambers: 1096698
+            simlaensis - Chakrabarti: 1096613
+            solidaginis - Fabricius: 1096699
+            sonchellum - Monell: 1096614
+            sonchi - Linnaeus: 1096615
+            sonchi_afghanicum - Narzikulov: 1096616
+            tanaceti - Linnaeus: 1096617
+            taraxaci - Kaltenbach: 1096700
+            tardae - Hottes & Frison: 1096701
+            telekiae - Holman: 1096618
+            tenuitarsum - Gillette & Palmer: 1096646
+            tessariae - Delfino: 1096647
+            torajicolus - Paik: 1096619
+            tuataiae - Olive: 1096702
+            tucumani - Essig: 1096648
+            tussilaginis - Walker: 1096620
+            ussuriensis - Pashtshenko: 1096621
+            vancouverensis - Robinson: 1096622
+            verbesinae - Boudreaux: 1096703
+            vernoniae - van der Groot: 1096704
+            zayasi - Holman: 1096649
+            zerogutierrezis - Smith & Knowlton: 1096650
+            zinzalae - Hottes & Frison: 1096623
+            zymozionense - Knowlton: 1096651
