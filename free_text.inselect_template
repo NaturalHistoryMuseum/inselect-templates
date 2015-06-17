@@ -1,4 +1,3 @@
-InselectTemplateVersion: 1
 Name: Free text location and taxonomy
 Thumbnail width pixels: 8192
 Cropped file suffix: .jpg
@@ -9,9 +8,9 @@ Fields:
       URI: http://rs.tdwg.org/dwc/terms/catalogNumber
       Mandatory: true
       Parser-regex: '^[0-9]{9}$'
-    - Name: Location,
+    - Name: Location
       Mandatory: true
       Parser-regex: '^[0-9]+$'
-    - Name: Taxonomy,
+    - Name: Taxonomy
       Mandatory: true
       Parser-regex: '^[0-9]+$'
