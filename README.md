@@ -28,7 +28,6 @@ Required
 * `Cropped file suffix`
     Optional. One of `.bmp`, `.jpeg`, `.jpg`, `.png`, `.tif`, `.tiff`. Defaults
     to `.jpg`.
-    **Not currently used by Inselect**
 
 * `Fields`
     A list of mappings for which the following can be used.
