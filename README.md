@@ -22,11 +22,12 @@ Required
     accessed by appending `-value` to the field name.
 
 * `Thumbnail width pixels`
-    A number between 1024 and 16384 inclusive.
+    Optional. A number between 1024 and 16384 inclusive. Defaults to 4096.
     **Not currently used by Inselect**
 
 * `Cropped file suffix`
-    One of `.bmp`, `.jpeg`, `.jpg`, `.png`, `.tif`, `.tiff`
+    Optional. One of `.bmp`, `.jpeg`, `.jpg`, `.png`, `.tif`, `.tiff`. Defaults
+    to `.jpg`.
     **Not currently used by Inselect**
 
 * `Fields`
@@ -44,15 +45,15 @@ Required
         enter a value for this field.
 
     * `Choices`
-        A list of unique strings from which the user can choose.
+        Optional. A list of unique strings from which the user can choose.
 
     * `Choices with data`
-        A list of unique strings from which the user can choose, together with
-        hidden data values. 
+        Optional. A list of unique strings from which the user can choose,
+        together with hidden data values. 
         `Choices` and `Choices with data` are mutually exclusive.
 
     * `Parser`
-        One of the following
+        Optional. One of the following
         * `date`
         A string in the form `YYYY-M[M]-D[D]`.
 
@@ -104,6 +105,6 @@ Required
             * `YYYY-M[M]-D[D]`
 
     * `Regex parser`
-        A regular expression. Values that do not match the regular expression
-        are considered to be invalid. `Regex parser` and `Parser` are mutually
-        exclusive.
+        Optional. A regular expression. Values that do not match the regular
+        expression are considered to be invalid. `Regex parser` and `Parser`
+        are mutually exclusive.
