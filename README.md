@@ -23,7 +23,6 @@ Required
 
 * `Thumbnail width pixels`
     Optional. A number between 1024 and 16384 inclusive. Defaults to 4096.
-    **Not currently used by Inselect**
 
 * `Cropped file suffix`
     Optional. One of `.bmp`, `.jpeg`, `.jpg`, `.png`, `.tif`, `.tiff`. Defaults
