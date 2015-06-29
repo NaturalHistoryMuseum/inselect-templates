@@ -4,9 +4,10 @@ Templates for [Inselect](https://github.com/NaturalHistoryMuseum/inselect).
 Templates are written in [YAML](https://en.wikipedia.org/wiki/YAML).
 
 * `Name`
-Required
+Required.
 
 * `Object label`
+    Optional.
     A string that defines how Inselect will assemble the file names of cropped
     object images and of the names shown on Object view grid.
     Text between curly braces (`{` and `}`) will be substituted with the value
@@ -20,6 +21,7 @@ Required
     index of that crop.
     * For fields with a `Choices with data`, the hidden data value can be
     accessed by appending `-value` to the field name.
+    * Defaults to `{ItemNumber}`.
 
 * `Thumbnail width pixels`
     Optional. A number between 1024 and 16384 inclusive. Defaults to 4096.
@@ -30,7 +32,8 @@ Required
 
 * `Fields`
     A list of mappings for which the following can be used.
-    * `Name` Required
+    * `Name`
+        Required.
 
     * `Label`
         Optional. Will be displayed in the UI instead of `Name`
