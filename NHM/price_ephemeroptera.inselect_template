@@ -7,7 +7,7 @@ Fields:
       Label: Catalog number
       URI: http://rs.tdwg.org/dwc/terms/catalogNumber
       Mandatory: true
-      Regex parser: '^[0-9]{9}$'
+      Regex parser: '^[0-9]{7}$'
     - Name: Location
       Mandatory: true
       Choices with data:
