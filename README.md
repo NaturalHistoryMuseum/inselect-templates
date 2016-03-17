@@ -36,14 +36,14 @@ Required.
         Required.
 
     * `Label`
-        Optional. Will be displayed in the UI instead of `Name`
+        Optional. Will be displayed in the UI instead of `Name`.
 
     * `URI`
         Optional. Should be a valid URL.
 
     * `Mandatory`
         Optional. Should be either `true` or `false`. If `true` the user must
-        enter a value for this field.
+        enter a value for this field. Defaults to `false`.
 
     * `Choices`
         Optional. A list of unique strings from which the user can choose.
