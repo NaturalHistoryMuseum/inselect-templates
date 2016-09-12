@@ -45,13 +45,16 @@ Required.
         Optional. Should be either `true` or `false`. If `true` the user must
         enter a value for this field. Defaults to `false`.
 
+    * `Fixed value`
+        Optional. A string value that the user will not be able to alter.
+
     * `Choices`
         Optional. A list of unique strings from which the user can choose.
 
     * `Choices with data`
         Optional. A list of unique strings from which the user can choose,
-        together with hidden data values. 
-        `Choices` and `Choices with data` are mutually exclusive.
+        together with hidden data values.
+        `Fixed value`, `Choices` and `Choices with data` are mutually exclusive.
 
     * `Parser`
         Optional. One of the following
